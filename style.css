@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+body {
+    font-family: 'Crimson Text', serif;
+    background-image: url('bg.png');
+    background-size: 1370px 658px;
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 616px;
+}
+
+
+/* header::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+
+} */
+
+.navbar {
+    /* border: 2px solid red; */
+
+
+}
+
+.navbar ul {
+    display: flex;
+    width: 666px;
+    margin: 33px auto;
+    padding: 3px 3px;
+    position: relative;
+    top: 23px;
+    left: 15px;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 3px 3px;
+    margin: 3px 3px;
+
+}
+
+.navbar li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    /* background-color: aqua; */
+    border-radius: 12px;
+    margin: -4px -1px;
+    padding: 13px 16px;
+    font-family: 'Crimson Text', serif;
+
+
+
+}
+.navbar li:hover{
+    background-color: rgba(0, 0, 0, 0.514) ;
+    border-radius: 11px;
+    transition-duration: 0.3s;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -50px;
+    left: -5px;
+}
+
+h3 {
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 221px;
+    left: 104px;
+    font-size: 29px;
+    color: rgb(255, 255, 255);
+    width: 547px;
+    padding: 110px 10px;
+    border-radius: 12px;
+    box-shadow: white 0px 0px 9px 2px;
+    background-color: #1642d3c7;
+    height: 80px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+h3:hover{
+    background-color: #26a1d1;
+}
+
+#about{
+    position: absolute;
+    top: 656px;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+    background-image: url('aboutbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.about {
+    display: flex;
+    width: 200px;
+    position: absolute;
+    top: 67px;
+    left: 585px;
+    color: white;
+    font-size: 57px;
+}
+/* .hr1 {
+    position: relative;
+    top: 59px;
+    left: 8px;
+    width: 350px;
+}
+.hr2 {
+    position: relative;
+    top: 169px;
+    left: 8px;
+    width: 350px;
+} */
+.containerabout {
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 183px;
+    left: 337px;
+    width: 560px;
+    height: 200px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 35px;
+    border-radius: 18px;
+    background-color: rgba(161, 127, 255, 0.322);
+    box-shadow: 1px -1px 44px 2px #fd00ffd9;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.containerabout:hover{
+    width: 801px;
+    height: 280px;
+    background-color: rgba(0, 255, 255, 0.329);
+    font-size: 23px;
+    position: relative;
+    top: 130px;
+    left: 215px;
+    box-shadow: 1px -1px 44px 2px #ff0000;
+    border-color: aqua;
+}
+
+.form{
+    display: flex;
+    width:700px;
+    height: 140px;
+    border: 2px solid white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.name{
+    border: 1px solid black; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    
+}
+
+.password{
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.submit{
+    padding: 17px 38px;
+    margin: 15px 15px;
+    font-size: 19px;
+    font-weight: bold;
+    background-color: aqua;
+    border-radius: 10px;
+   transition: all 0.4s ease-in-out;
+}
+
+.submit:hover{
+    transform:translateX(222px);
+    background-color: rgba(107, 0, 128, 0.76);
+
+}
+
+.lap {
+    position: relative;
+    top: 1239px;
+    left: -8px;
+    width: 1349px;
+    height: 900px;
+    background-image: url('laptopbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-laptop{
+width: 600px;
+
+}
+
+.lap-item1{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.lap-item2{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    transform: rotate(-10deg);
+}
+.lap-item3{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.lap-item4{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.lap-item5{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.lap-item6{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.lap-item7{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.lap-item8{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
